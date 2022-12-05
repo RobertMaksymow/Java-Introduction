@@ -28,9 +28,9 @@ public class Array2D {
                 { 5, 6, 7 },
                 { 9, 0, 1, 2, 8, 3 }
         };
-        for (int i = 0; i < e.length; i++) { // counting rows
-            for (int j = 0; j < e[i].length; j++) { // counting columns
-                System.out.print(" " + e[i][j]);
+        for (int i[] : e) { // counting rows
+            for (int l : i) { // counting columns
+                System.out.print(" " + l);
             }
             System.out.println(); // 1 2 3 4
                                   // 5 6 7
