@@ -17,12 +17,12 @@ public class ArraysDemo2 {
         }
 
         // Creating array based on class
-        Student s1 = new Student();
-        Student s2 = new Student();
-        Student s3 = new Student();
-        Student s4 = new Student();
+        StudentData s1 = new StudentData();
+        StudentData s2 = new StudentData();
+        StudentData s3 = new StudentData();
+        StudentData s4 = new StudentData();
         // or different way:
-        Student s[] = { s1, s2, s3, s4 };
+        StudentData s[] = { s1, s2, s3, s4 };
         System.out.println(s[0]); // Student@6b95977
 
     }
