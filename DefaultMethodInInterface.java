@@ -8,7 +8,7 @@ interface Demo {
     }
 }
 
-class DemoImplementation implements Demo {
+class DemoImplementation implements Demo5 {
     public void testMethod1() {
         System.out.println("inside test method 1");
     }
@@ -20,7 +20,7 @@ class DemoImplementation implements Demo {
 
 public class DefaultMethodInInterface {
     public static void main(String[] args) {
-        Demo obj = new DemoImplementation();
+        Demo5 obj = new DemoImplementation();
         obj.testMethod1();
         obj.testMethod2();
 
